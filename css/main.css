@@ -1,0 +1,628 @@
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+.container{
+max-width: 1200px;
+margin: 0 auto;
+}
+header{
+    background: linear-gradient(180deg, #4B2C24 0%, #2B1712 100%);
+
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: all .3s ease;
+    font-family: 'Pacifico', cursive;
+    font-weight: 201px;
+}
+nav a:hover{
+    color: 
+    #DDB66F;
+}
+.line{
+    display: flex;
+}
+.hero h3{
+    font-family: 'Poppins', sans-serif;
+    color: 
+    #DDB66F;
+    margin-bottom: 30px;
+}
+.hero .container{
+    /* flex-wrap: wrap; */
+    display: flex;
+    gap: 200px;
+    align-items: center;
+ padding-top: 50px ;
+ padding-bottom: 100px;
+ 
+}
+.hero h1{
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+.hero p{
+ color: white;
+ width: 320px;
+ padding: 20px 0px;
+ font-family: 'Poppins', sans-serif;
+}
+.hero button{
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    background: #DDB66F;
+  margin-top: 20px;
+  gap: 5px;
+    border-radius: 30px;
+    border: transparent;
+    box-shadow: 5px 5px 15px 1px #ddb76f7a;
+    transition: all .3s ease;
+}
+.hero button:hover{
+    transform: scale(1.2);
+}
+section{
+    border-radius: 50px 50px 0px 0px;
+    margin-top: -50px;
+
+}
+.section1{
+    background: #492D26;
+   
+}
+.section1 .container{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section1_infos p{
+    width: 330px;
+    color: white;
+    padding: 30px 0px;
+}
+.coffees{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.coffee h4{
+    color: white;
+    font-family: 'Pacifico', cursive; 
+}
+.select{
+    width: 160px;
+    background: #2B1712;
+    padding: 16px 0px;
+ text-align: center;
+ border-radius: 30px;
+ box-shadow: 5px 5px 15px 2px #2b1712b9;
+ margin-top: 10px;
+}
+.select select{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+option{
+    color:white;
+    background-color: #2B1712;
+}
+.section2{
+    background-color: white;
+}
+.section2 .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    align-items: center;
+  /* flex-wrap: wrap; */
+
+}
+.section2_infos h1{
+    
+  color: #2E2624;
+  font-family: 'Pacifico', cursive; 
+  font-size: 49px;
+  margin-bottom: 20px;
+  align-items: center;
+ 
+}
+.section2_infos p{
+    color: 
+    #5B4C48;
+    width: 400px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.section3{
+    width: 100%;
+
+ background-image: url(../imgs/bg-coffee-beans\ 1.png);
+    background-color: #492D26;
+    
+   
+}
+.section3 .container h1{
+  color: white;
+    font-family: 'Pacifico', cursive; 
+  font-size: 45px;
+  text-align: center;
+  padding: 40px 0px;
+}
+.section3 .container{
+    text-align: center;
+    padding: 50px 0px;
+    
+}
+.steps{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+}
+.step{
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.step2{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.step p{
+    font-weight: 400;
+    padding: 20px 0px;
+    width: 250px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+    font-size: 15px;
+}
+.section4{
+    background-color: white;
+    
+    
+}
+.section4 .container{
+    padding-top: 60px;
+    display: flex;
+    gap: 60px;
+    padding-bottom: 150px;
+    /* flex-wrap: wrap; */
+}
+.section4 p{
+    color: 
+    #5B4C48;
+}
+
+
+footer{
+    margin-top: -100px;
+    background-image: url(../imgs/bg-coffee-beans\ 1.png);
+    background-color: #2B1712;
+
+    border-radius: 50px 50px 0px 0px;
+}
+footer .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+footer .form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.form input:hover{
+    background: #DDB66F;
+ color: black;
+}
+.form button:hover{
+    background: #DDB66F;
+ color: black;
+}
+.footer_span{
+    color: #DDB66F ;
+}
+.form input {
+    padding: 15px 30px;
+
+    border-radius: 30px;
+    color: #847571;
+    background-color: transparent;
+    border: 2px solid  #847571;
+}
+.form button{
+    margin-bottom: 30px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: #847571;
+    background-color: transparent;
+    border: 2px solid  #847571;
+}
+footer p{
+    
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+footer p:nth-child(3){
+    color: #847571;
+    padding-top: 40px;
+}
+
+footer .container{
+    padding: 70px 0px;
+}
+.footer_imgs{
+    display: flex;
+    
+    margin: 0 auto;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+footer h3{
+    font-family: 'Pacifico', cursive;
+    padding-top: 25px;
+    font-size: 28px;
+}
+@media (max-width: 960px)
+{
+   nav ul{
+    display: none;
+   } 
+   nav .container{
+    width: 100%;
+    display: flex;
+
+   margin: 0 auto;
+   align-items: center;
+   justify-content:center;
+}
+.hero .container{
+    justify-content: center;
+
+    flex-direction: column;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+.hero_infos{
+    margin: 0 auto;
+    
+}
+.hero_infos h3{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.hero_infos img{
+    width: 70%;
+    text-align: center;
+     
+}
+.hero_infos button{
+    /* text-align: center; */
+    margin: 0 auto;
+}
+.hero_infos p{
+    padding: 30px 0px;
+    width: 260px;
+    margin: 0 auto;
+}
+.hero_img img{
+    width: 90%;
+    text-align: center;
+  margin-top: -150px;
+   
+    
+}
+.section1_infos{
+    margin: 0 auto;
+}
+.select{
+    margin: 0 auto;
+    width: 90%;
+}
+.section1_infos p{
+    width: 280px;
+    text-align: center;
+}
+.coffees{
+    gap: 0px;
+    width: 90%;
+margin: 0 auto;
+justify-content: center;
+}
+.coffee {
+    margin-bottom: 40px;
+}
+.section2{
+    width: 100%;
+}
+.section2 .container{
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+
+    text-align: center;
+}
+.section2_infos{
+    text-align: center;
+}
+.section2_infos h1{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+.section2_infos p{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.section2_img img{
+    width: 80%;
+    text-align: center;
+}
+.section3{
+    width: 100%;
+}
+.section3 h1{
+    width: 90%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.step2{
+    flex-direction: column;
+    margin-top: -200px;
+}
+.section4 .container{
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+.section4 {
+    width: 100%;
+}
+
+.section4 h1{
+width: 80%;
+font-size: 25px;
+}
+footer{
+    width: 100%;
+}
+footer .container{
+text-align: center;
+
+
+}
+.cards img {
+    text-align: center;
+}
+.cards {
+  justify-content: center;
+}
+.cards h3{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.form{
+    margin: 0 auto;
+}
+.form input{
+    margin: 0 auto;
+    width: 80%;
+}
+.form button{
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.card p{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+}
+
+@media (max-width:467px){
+    nav ul{
+        display: none;
+        
+        
+    } 
+    nav .container{
+        width: 100%;
+        display: flex;
+    
+       margin: 0 auto;
+       align-items: center;
+       justify-content:center;
+    }
+    .hero .container{
+        justify-content: center;
+
+        flex-direction: column;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .hero_infos{
+        margin: 0 auto;
+        
+    }
+    .hero_infos h3{
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .hero_infos img{
+        width: 70%;
+        text-align: center;
+         
+    }
+    .hero_infos button{
+        /* text-align: center; */
+        margin: 0 auto;
+    }
+    .hero_infos p{
+        padding: 30px 0px;
+        width: 260px;
+        margin: 0 auto;
+    }
+    .hero_img img{
+        width: 90%;
+        text-align: center;
+      margin-top: -150px;
+       
+        
+    }
+    .section1_infos{
+        margin: 0 auto;
+    }
+    .select{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .section1_infos p{
+        width: 280px;
+        text-align: center;
+    }
+    .coffees{
+        gap: 0px;
+        width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    }
+    .coffee {
+        margin-bottom: 40px;
+    }
+    .section2{
+        width: 100%;
+    }
+    .section2 .container{
+        /* flex-direction: column; */
+        flex-direction: column-reverse;
+    
+        text-align: center;
+    }
+    .section2_infos{
+        text-align: center;
+    }
+    .section2_infos h1{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+
+    }
+    .section2_infos p{
+        width: 75%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    .section2_img img{
+        width: 80%;
+        text-align: center;
+    }
+    .section3{
+        width: 100%;
+    }
+    .section3 h1{
+        width: 90%;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    .step2{
+        flex-direction: column;
+        margin-top: -200px;
+    }
+    .section4 .container{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .section4 {
+        width: 100%;
+    }
+
+.section4 h1{
+    width: 80%;
+    font-size: 25px;
+}
+footer{
+    width: 100%;
+}
+footer .container{
+text-align: center;
+
+
+}
+.cards img {
+    text-align: center;
+}
+.cards {
+  justify-content: center !important; 
+}
+.cards h3{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.form{
+    margin: 0 auto;
+}
+.form input{
+    margin: 0 auto;
+    width: 80%;
+}
+.form button{
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.card p{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+}
